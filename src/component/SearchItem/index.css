@@ -1,0 +1,54 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  width: 100%;
+}
+.timing {
+  font-size: 10px;
+  color: #64748b;
+  margin-right: 0px;
+  margin-right: 80px;
+}
+.img-matter {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  margin-right: 30px;
+}
+.logo {
+  max-height: 50px;
+  max-width: 50px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 750px) {
+  .logo {
+    width: 13%;
+    height: 13%;
+  }
+}
+.description {
+  color: #475569a4;
+  font-size: 10px;
+  font-weight: bold;
+}
+.domaine-url {
+  color: #64748b;
+  font-size: 10px;
+}
+.delete-btn {
+  cursor: pointer;
+  margin: 10px;
+  background-color: white;
+  border: none;
+}
+.delete-icon {
+  height: 5%;
+  width: 5%;
+  padding: 10px;
+  margin-right: 20px;
+}
